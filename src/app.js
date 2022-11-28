@@ -3,6 +3,7 @@ const path = require('path');
 const logger = require('morgan');
 const passport = require('passport');
 const cookieSession = require('cookie-session')
+const cors = require('cors')
 
 
 
@@ -23,6 +24,7 @@ module.exports = async (app) => {
         keys: ['eyrfgv456789087fugiui']
     }))
     app.use(passport.initialize());
+    app.use(cors())
 
 /***************************************************************
  ******************* APIs *************************************
