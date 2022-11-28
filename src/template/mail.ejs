@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .div {
+                display: grid;
+                font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="div">
+        <img
+                src="https://i.im.ge/2022/07/07/u3Hcop.th.png"
+                alt="pluto logo"
+                width="70px"
+                height="70px"
+        />
+
+        <p>
+            Dear <%= firstname%> <%= lastname %>
+        </p>
+        <br/>
+        <p>
+            You have successfully registered on the PLUTO portal. To activate your account please click the following link or
+            copy and paste into your browser.
+        </p>
+        <br/>
+        <a href="http://pluto.org/api/users/activate/<%= _id %>" target="_blank">
+            http://pluto.org/api/users/activate/<%= _id %>
+        </a>
+        <br />
+        <p>This link will expire in 48hours and your registration will be deleted from the database.</p>
+        <br />
+        <p>
+            Best Regards <br />
+            PLUTO <br />
+            <%= date %>
+        </p>
+
+        <p>
+            This message was sent to <%= email %> beccause ypu have registered on PlUTO. If you wish to delete your application to
+            sto receiving these mails please do not click on the link;
+        </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "name": "plutoapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/bin/www",
+    "dev": "nodemon src/bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "binance-api-node": "^0.11.41",
+    "bip32": "^3.0.1",
+    "bitcoinjs-lib": "^6.0.1",
+    "ccxt": "^1.92.52",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "~4.16.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.7.7",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "tiny-secp256k1": "^2.2.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
