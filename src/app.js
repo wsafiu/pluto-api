@@ -21,7 +21,7 @@ module.exports = async (app) => {
     app.use(express.static(path.join(__dirname, 'public')));
     app.use(cookieSession({
         name: 'pluto-session',
-        keys: ['eyrfgv456789087fugiui']
+        keys: ['eyrfgv456789087fugiui'],
     }))
     app.use(passport.initialize());
     app.use(cors())

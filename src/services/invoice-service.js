@@ -17,6 +17,7 @@ class InvoiceService {
     async createInvoice (userInput, user) {
         const {amount, phone, address, prevInvoiceId = ''} = userInput || {};
 
+
         try {
             /***************************************
              * Generating Wallet address
@@ -28,6 +29,10 @@ class InvoiceService {
                 pubkey: bip32.fromBase58(xpub).derive(0).derive(invoiceCount).publicKey,
                 network: TESTNET
             })
+
+            console.log("here is the function")
+
+            console.log(address)
 
             /*******************************************
              * Amount in satosh

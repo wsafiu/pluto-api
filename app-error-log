@@ -7,3 +7,36 @@
 {"level":"error","message":"Wed Sep 21 2022 18:51:32 GMT+0100 (West Africa Standard Time)-SyntaxError: Unexpected token } in JSON at position 54","private":true}
 {"level":"error","message":"Wed Sep 21 2022 19:05:48 GMT+0100 (West Africa Standard Time)-NOT FOUND: Class constructor APIError cannot be invoked without 'new'","private":true}
 {"level":"error","message":"Sat Sep 24 2022 03:33:09 GMT+0100 (West Africa Standard Time)-Error: Account not activated","private":true}
+{"level":"error","message":"Wed Nov 30 2022 01:34:34 GMT+0100 (West Africa Standard Time)-MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/","private":true}
+{"level":"error","message":"Wed Nov 30 2022 01:35:22 GMT+0100 (West Africa Standard Time)-MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/","private":true}
+{"level":"error","message":"Wed Nov 30 2022 01:53:43 GMT+0100 (West Africa Standard Time)-Error: Account not activated","private":true}
+{"level":"error","message":"Sun Dec 04 2022 07:34:29 GMT+0100 (West Africa Standard Time)-BadRequestError: request aborted","private":true}
+{"level":"error","message":"Mon Dec 05 2022 16:36:31 GMT+0100 (West Africa Standard Time)-BadRequestError: request aborted","private":true}
+{"level":"error","message":"Wed Dec 07 2022 08:52:57 GMT+0100 (West Africa Standard Time)-BadRequestError: request aborted","private":true}
+{"level":"error","message":"Wed Dec 07 2022 08:58:54 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 08:59:02 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 08:59:12 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 08:59:36 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 09:00:50 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 09:01:55 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 09:03:49 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 09:10:32 GMT+0100 (West Africa Standard Time)-NOT FOUND: Unauthorized request","private":true}
+{"level":"error","message":"Wed Dec 07 2022 09:10:42 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:01:04 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:05:11 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:08:35 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:09:47 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:11:14 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:11:52 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:12:40 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:13:58 GMT+0100 (West Africa Standard Time)-NOT FOUND: getaddrinfo ENOTFOUND c2c.binance.com","private":true}
+{"level":"error","message":"Wed Dec 07 2022 16:14:33 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 21:03:56 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Wed Dec 07 2022 21:05:00 GMT+0100 (West Africa Standard Time)-NOT FOUND: invoice validation failed: walletAddresses: Path `walletAddresses` is required.","private":true}
+{"level":"error","message":"Thu Dec 08 2022 07:45:43 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Thu Dec 08 2022 11:49:40 GMT+0100 (West Africa Standard Time)-NOT FOUND: error:0308010C:digital envelope routines::unsupported","private":true}
+{"level":"error","message":"Thu Dec 08 2022 12:00:04 GMT+0100 (West Africa Standard Time)-NOT FOUND: getaddrinfo ENOTFOUND c2c.binance.com","private":true}
+{"level":"error","message":"Thu Dec 08 2022 12:00:57 GMT+0100 (West Africa Standard Time)-NOT FOUND: getaddrinfo ENOTFOUND c2c.binance.com","private":true}
+{"level":"error","message":"Thu Dec 08 2022 12:02:00 GMT+0100 (West Africa Standard Time)-NOT FOUND: getaddrinfo ENOTFOUND c2c.binance.com","private":true}
+{"level":"error","message":"Thu Dec 08 2022 12:05:05 GMT+0100 (West Africa Standard Time)-NOT FOUND: getaddrinfo ENOTFOUND c2c.binance.com","private":true}
+{"level":"error","message":"Thu Dec 08 2022 12:07:08 GMT+0100 (West Africa Standard Time)-NOT FOUND: request to https://api.binance.com/api/v3/avgPrice?symbol=BTCBUSD failed, reason: read ECONNRESET","private":true}

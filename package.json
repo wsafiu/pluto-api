@@ -10,7 +10,7 @@
     "axios": "^0.27.2",
     "binance-api-node": "^0.11.41",
     "bip32": "^3.0.1",
-    "bitcoinjs-lib": "^6.0.1",
+    "bitcoinjs-lib": "^6.1.0",
     "ccxt": "^1.92.52",
     "cookie-session": "^2.0.0",
     "cors": "^2.8.5",

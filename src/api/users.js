@@ -20,7 +20,8 @@ const userRouter = () => {
     res.json('respond with a resource');
   });
 
-  router.get('/currentuser', currentUser, verifyUser, (req, res, next) => {
+  router.get('/currentuser', verifyUser, (req, res, next) => {
+      console.log("calling")
     res.send( req.user || null)
   })
 
@@ -59,7 +60,7 @@ const userRouter = () => {
 
               const token = getToken({_id: user._id});
               res.setHeader("Content-Type", "application/json");
-              req.session = { token: token }
+              req.session = { token: token };
               res.status(200).json({success: true, token: token, data: "You are successfully login "})
 
             }catch (e) { next(e) }

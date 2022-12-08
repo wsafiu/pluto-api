@@ -17,7 +17,7 @@ const invoiceRouter = () => {
     const service = new InvoiceService();
 
     router.route("/")
-        .get( currentUser, verifyUser, async (req, res, next) => { //should always be for admin to get all post
+        .get(verifyUser, async (req, res, next) => { //should always be for admin to get all post
             const { query } = req
             try {
                 let invoices = [];
@@ -45,7 +45,7 @@ const invoiceRouter = () => {
             } catch (e) { next(e) }
         })
         .post(
-            currentUser,
+            // currentUser,
             verifyUser,
             body("phone").trim().isMobilePhone().withMessage("Enter a valid Phone number"),
             body("amount").trim().toInt().custom((value, {req}) => {
@@ -60,6 +60,7 @@ const invoiceRouter = () => {
                     if(!err.isEmpty()) initiateError(STATUS_CODES.BAD_REQUEST, err.array().map(item => item.param))
 
                     const { body, user } = req;
+                    console.log(body)
                     const { data } = await service.createInvoice(body, user);
                     res.status(200).json(data)
                 } catch (e) { next(e) }
