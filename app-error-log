@@ -40,3 +40,9 @@
 {"level":"error","message":"Thu Dec 08 2022 12:02:00 GMT+0100 (West Africa Standard Time)-NOT FOUND: getaddrinfo ENOTFOUND c2c.binance.com","private":true}
 {"level":"error","message":"Thu Dec 08 2022 12:05:05 GMT+0100 (West Africa Standard Time)-NOT FOUND: getaddrinfo ENOTFOUND c2c.binance.com","private":true}
 {"level":"error","message":"Thu Dec 08 2022 12:07:08 GMT+0100 (West Africa Standard Time)-NOT FOUND: request to https://api.binance.com/api/v3/avgPrice?symbol=BTCBUSD failed, reason: read ECONNRESET","private":true}
+{"level":"error","message":"Thu Dec 08 2022 23:36:32 GMT+0100 (West Africa Standard Time)-NOT FOUND: Unauthorized request","private":true}
+{"level":"error","message":"Thu Dec 08 2022 23:52:53 GMT+0100 (West Africa Standard Time)-NOT FOUND: Unauthorized request","private":true}
+{"level":"error","message":"Fri Dec 09 2022 05:10:33 GMT+0100 (West Africa Standard Time)-MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/","private":true}
+{"level":"error","message":"Fri Dec 09 2022 05:12:35 GMT+0100 (West Africa Standard Time)-NOT FOUND: Unauthorized request","private":true}
+{"level":"error","message":"Fri Dec 09 2022 05:12:36 GMT+0100 (West Africa Standard Time)-NOT FOUND: Unauthorized request","private":true}
+{"level":"error","message":"Fri Dec 09 2022 05:12:50 GMT+0100 (West Africa Standard Time)-Error: phone","private":true}
