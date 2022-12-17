@@ -45,7 +45,7 @@ module.exports = async (app) => {
             await blockProcess.blockWorker()
         }catch (e) {
             e.statusCode = 500;
-            ErrorHandler(e, null, null, null, true)
+            await ErrorHandler(e, null, null, null, true)
             console.log("app", e)
         }
     }
@@ -54,7 +54,7 @@ module.exports = async (app) => {
     blockProcessInitiator()
     setInterval(() => {
         blockProcessInitiator()
-    }, 3 * 60000)
+    }, 2 * 60000)
 
 /****************************** End ***************************/
 

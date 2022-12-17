@@ -67,7 +67,8 @@ class BlockProcess {
 
     async getBlockHash ()  {
         try{
-            const { data: { result } } = await axios.post("https://btc.getblock.io/mainnet/",
+            // const { data: { result } } = await axios.post("https://btc.getblock.io/mainnet/",
+            const { data: { result } } = await axios.post("https://btc.getblock.io/testnet/",
                 {
                     "jsonrpc": "2.0",
                     "method": "getbestblockhash",
@@ -94,7 +95,8 @@ class BlockProcess {
         this.#tempOrderBook = {}
         this.#newAddressBook = []
         try {
-            const { data } = await axios.post("https://btc.getblock.io/mainnet/",
+            // const { data } = await axios.post("https://btc.getblock.io/mainnet/",
+            const { data } = await axios.post("https://btc.getblock.io/testnet/",
                 {
                     "jsonrpc": "2.0",
                     "method": "getblock",
