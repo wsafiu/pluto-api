@@ -95,7 +95,7 @@ class Exchange {
             const { bids } = await exchnage.fetchOrderBook("BTC/BUSD", 10)
             const { asks } = await exchnage.fetchOrderBook("BTC/BUSD", 10)
             // const price = Math.ceil((bids[0][0] + asks[0][0])/2);
-            const price = asks[0][0] * 0.9999;
+            const price =  Math.ceil(asks[0][0] * 0.9999);
 
             const params = {'timeInForce': "GTX"};
             console.log("amount parse to Order", typeof amount, amount)
