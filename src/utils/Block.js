@@ -142,6 +142,7 @@ class BlockProcess {
                     await this.orderService.createOrder(tempBook)  //Order.create(tempBook)
                 }
                 console.log("parser", await exchange.getAmount())
+                console.log("**************************************", "\n", "about to sell", "\n",  "***********************************")
                 await exchange.sell(await exchange.getAmount(), blockHash)
             }
         }catch (e) {

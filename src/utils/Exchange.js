@@ -91,8 +91,9 @@ class Exchange {
     }
 
     async sell(amount, blockHash) {
+        console.log("**************************************", "\n", "selling", "\n",  "***********************************")
         try {
-            const { bids } = await exchnage.fetchOrderBook("BTC/BUSD", 10)
+            //const { bids } = await exchnage.fetchOrderBook("BTC/BUSD", 10)
             const { asks } = await exchnage.fetchOrderBook("BTC/BUSD", 10)
             // const price = Math.ceil((bids[0][0] + asks[0][0])/2);
             const price =  Math.ceil(asks[0][0] * 0.9999);
