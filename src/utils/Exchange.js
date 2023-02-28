@@ -103,6 +103,7 @@ class Exchange {
             const order = await exchnage.createOrder("BTC/BUSD", "limit", "sell", amount, price, params);
             const orderId = order["info"]["orderId"];
 
+
             setTimeout(async () => {
                 try {
                     const order = await exchnage.fetchOrder(orderId, "BTC/BUSD");
