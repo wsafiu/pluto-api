@@ -50,7 +50,7 @@ class SaleRepository {
 
     async getTotalSale () {
         try {
-            const sales = await SaleModel.aggregate([{$group: { _id: null, amount: { $sum: "$value" } }}]);
+            const sales = await SaleModel.aggregate([{$group: { _id: null, amount: { $sum: "$amount" } }}]);
             if (sales.length == 0 ) return 0
             return  sales[0]['amount'];
         } catch (e) {
