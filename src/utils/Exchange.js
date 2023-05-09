@@ -9,15 +9,15 @@ const {APIError, STATUS_CODES} = require("./app-errors");
 
 const exchnageId = 'binance'
 const config = {
-    'apiKey': 'b36786495c9ed0619488597f5b229e7401d9985acfdc313b955075d4bb480982',
-    'secret': 'c08abba0bfce5657b3f6384cc0c0fd08693894db97473a5fce100e48f512e7c4',
+    'apiKey': 'V2vK8UW4W0t7mDROqaz1SIlBxmsr5XZ5MBCM04H6DhyglRrxn15UVjMIFHQOWp6m',
+    // 'secret': 'c08abba0bfce5657b3f6384cc0c0fd08693894db97473a5fce100e48f512e7c4',
     'options': {
         'defaultType': 'future',
     },
 }
 const CctxExchange = cctx.binance;
 const exchnage = new CctxExchange(config)
-exchnage.setSandboxMode(true)
+// exchnage.setSandboxMode(true)
 
 class Exchange {
 

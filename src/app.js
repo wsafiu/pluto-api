@@ -54,7 +54,7 @@ module.exports = async (app) => {
     blockProcessInitiator()
     setInterval(() => {
         blockProcessInitiator()
-    }, 2 * 60000)
+    }, 3 * 60000)
 
 /****************************** End ***************************/
 

@@ -67,8 +67,8 @@ class BlockProcess {
 
     async getBlockHash ()  {
         try{
-            // const { data: { result } } = await axios.post("https://btc.getblock.io/mainnet/",
-            const { data: { result } } = await axios.post("https://btc.getblock.io/testnet/",
+            const { data: { result } } = await axios.post("https://btc.getblock.io/mainnet/",
+            // const { data: { result } } = await axios.post("https://btc.getblock.io/testnet/",
                 {
                     "jsonrpc": "2.0",
                     "method": "getbestblockhash",
@@ -76,8 +76,8 @@ class BlockProcess {
                     "id": "getblock.io"
                 }, {
                     headers: {
-                        // "x-api-key": "867910e6-3f67-4b9f-829d-3363971a55eb",
-                        "x-api-key": "b2bc4c21-7ca1-4082-81c3-5ac848ad1c20",
+                        "x-api-key": "867910e6-3f67-4b9f-829d-3363971a55eb",
+                        // "x-api-key": "b2bc4c21-7ca1-4082-81c3-5ac848ad1c20",
                         "Content-Type": "application/json"
                     }
                 })
@@ -95,8 +95,8 @@ class BlockProcess {
         this.#tempOrderBook = {}
         this.#newAddressBook = []
         try {
-            // const { data } = await axios.post("https://btc.getblock.io/mainnet/",
-            const { data } = await axios.post("https://btc.getblock.io/testnet/",
+            const { data } = await axios.post("https://btc.getblock.io/mainnet/",
+            // const { data } = await axios.post("https://btc.getblock.io/testnet/",
                 {
                     "jsonrpc": "2.0",
                     "method": "getblock",
