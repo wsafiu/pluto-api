@@ -8,6 +8,7 @@ const { getC2cPrice, getBTCPrice, initiateError, FormatData} = require("../utils
 const { InvoiceRepository } = require('../database');
 const { BadRequestError, STATUS_CODES} = require('../utils/app-errors');
 const TESTNET = bjs.networks.testnet;
+const MAINNET = bjs.networks.bitcoin;
 class InvoiceService {
 
     constructor() {
@@ -27,12 +28,12 @@ class InvoiceService {
             const xpub = process.env.X_PUB;
             const { address } =  bjs.payments.p2wpkh({
                 pubkey: bip32.fromBase58(xpub).derive(0).derive(invoiceCount).publicKey,
-                network: TESTNET
+                network: MAINNET //TESTNET
             })
 
-            console.log("here is the function")
+            //console.log("here is the function")
 
-            console.log(address)
+           // console.log(address)
 
             /*******************************************
              * Amount in satosh
@@ -40,7 +41,7 @@ class InvoiceService {
             const c2cPrice = await getC2cPrice();
             let BTCPrice = await getBTCPrice();
 
-            BTCPrice = 99.5 / 100 * BTCPrice
+            BTCPrice = 100.01/ 100 * BTCPrice
             // c2cPrice = Math.floor(c2cPrice.reduce((a, b) => a + b)/c2cPrice.length) - 1;
 
             // console.log(c2cPrice, BTCPrice)
@@ -76,12 +77,12 @@ class InvoiceService {
     }
 
     async getUserInvoice (userId) {
-       try {
-           const invoices = this.repository.getInvoice({user: userId});
-           return FormatData(invoices);
-       } catch (e) {
-           throw new BadRequestError(e.message, e)
-       }
+        try {
+            const invoices = this.repository.getInvoice({user: userId});
+            return FormatData(invoices);
+        } catch (e) {
+            throw new BadRequestError(e.message, e)
+        }
     }
 
     async getInvoiceById (id) {
